@@ -6,13 +6,52 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
-### Fixed
-
 ### Added
 
 ### Changed
 
+### Fixed
+
 ### Documentation
+
+- Added more details about config swagger format [#698](https://github.com/rswag/rswag/pull/698)
+
+## [2.13.0]
+
+### Added
+
+- Add deprecation warnings for `Rswag::Api` configuration (https://github.com/rswag/rswag/pull/702)
+
+### Fixed
+
+- Fix deprecation warnings for `Rswag::Specs` configuration (https://github.com/rswag/rswag/pull/702)
+
+## [2.12.0]
+
+### Changed
+
+- Relaxed the dependency on json-schema, allowing for updates including support for allPropertiesRequired and noPropertiesRequired options (https://github.com/rswag/rswag/pull/659)
+
+### Fixed
+
+- Add missing link to Content Security Policy (https://github.com/rswag/rswag/pull/619)
+- Fix it's vs its typo (https://github.com/rswag/rswag/pull/689)
+
+### Added
+
+- Add warning about methods renaming (https://github.com/rswag/rswag/pull/688)
+
+### Changed
+
+- Bump "swagger-ui-dist" to "5.9.4" in rswag-ui (https://github.com/rswag/rswag/pull/670)
+
+### Documentation
+
+## [2.11.0]
+
+### Added
+
+- Rails 7.1 support (https://github.com/rswag/rswag/pull/677)
 
 ## [2.10.1]
 
